@@ -1,5 +1,5 @@
 {% set name = "airflow-code-editor" %}
-{% set version = "7.5.0" %}
+{% set version = "7.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/airflow_code_editor-{{ version }}.tar.gz
-  sha256: 4652d2c3ef475ed42a078bc8d222707c1deb77e314c268d3f08774bc283f3ea1
+  sha256: 0c324f3381bfd8c7876e537c38a405dd437d5afad1d95a7c4d8788305e5eb2a3
 
 build:
   noarch: python
