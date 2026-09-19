@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: airflow-code-editor
-  version: "8.3.0"
+  version: "8.3.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/airflow_code_editor-${{ version }}.tar.gz
-  sha256: f7a44b44e02c62a2b29c83dd21b69462078ae0590135118c998bd09f350a4146
+  sha256: ee86233ece9b08747b446f6556852c02c3b33c080ab339d814c4e05bcdaf72c0
 
 build:
   number: 0
